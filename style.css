@@ -1,0 +1,14 @@
+body::before {
+  content: "";
+  display: block;
+  height: 55px;
+}
+@media (min-width: 768px) {
+  .new-input {
+    width: 50%;
+  }
+}
+#map iframe{
+    border-radius: 10px;
+    overflow: hidden;
+}
